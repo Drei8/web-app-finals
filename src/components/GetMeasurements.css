@@ -1,0 +1,16 @@
+.measurements-tab{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.main-get-measurements{
+    display: flex;
+    flex-direction: row;
+    flex: 6
+}
+.cameraA {
+    flex:2
+}
+.sample{
+    flex: 2
+}

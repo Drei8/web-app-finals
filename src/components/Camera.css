@@ -1,0 +1,33 @@
+.camera-header {
+    text-align: center; /* Good practice */
+    margin-bottom: 80px; /* Or more, adjust as needed to prevent overlap */
+    margin-top: 0px;
+  }
+  
+  
+  /*
+    The .webcam-container (see JSX below) is useful for centering the webcam
+    and managing its space.
+  */
+  .webcam-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+      Optional: If you want to constrain the overall area and ensure
+      the rotated webcam fits and is centered within a specific height.
+      The height should be at least the original width of your webcam feed
+      because that becomes the visual height after rotation.
+    */
+    /* height: 750px; */ /* Example: if original webcam width is up to 700-750px */
+  }
+  
+  .camera-feedback {
+    transform: rotate(90deg);
+    transform-origin: center;
+    max-width: 700px; /* This applies to the NEW width after rotation (i.e., original height) */
+    /*
+      Remove display: flex and related properties from here.
+      Centering is handled by .webcam-container.
+    */
+  }
