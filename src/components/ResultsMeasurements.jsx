@@ -78,7 +78,7 @@ export default function ResultsMeasurements({ onClose }) {
           </div>
         </div>
         <div className="rm-modal__actions">
-          <button className="rm-btn" onClick={onClose}>Got it</button>
+          <button className="rm-btn" onClick={onClose}>Save</button>
         </div>
       </div>
     </div>

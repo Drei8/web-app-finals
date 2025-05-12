@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f2e3;
+}
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #f4e5c3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 40px;
+}
+
+.wood-button {
+  background-image: url('./assets/wood-texture-button.png');
+  background-size: cover;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 20px;
+  color: black;
+  cursor: pointer;
+  width: 180px;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 40px;
+  background-color: #f9f3e6;
+}
+
+.profile-header h1 {
+  font-size: 28px;
+  color: #3e2600;
+  margin-bottom: 5px;
+}
+
+.profile-header p {
+  color: #5c3a00;
+}
+
+.profile-info {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.info-item {
+  background: #fff9e6;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.measurement-history h2 {
+  color: #4a2c00;
+  margin-bottom: 10px;
+}
+
+.measurement-history table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffef9;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.measurement-history th,
+.measurement-history td {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.measurement-history th {
+  background-color: #f4d88c;
+  color: #3e2600;
+}
+
+/* src/components/Profile.css */
+.profile-tab {
+  display: flex;
+  height: 100vh;
+}
+
+.profile-content {
+  flex: 1;
+  overflow: auto;
+}
+

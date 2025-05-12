@@ -1,0 +1,44 @@
+.profile-header h1 {
+  font-size: 28px;
+  color: #3e2600;
+  margin-bottom: 5px;
+}
+
+.profile-info {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.info-item {
+  background: #fff9e6;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.measurement-history h2 {
+  color: #4a2c00;
+  margin-bottom: 10px;
+}
+
+.measurement-history table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffef9;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.measurement-history th,
+.measurement-history td {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.measurement-history th {
+  background-color: #f4d88c;
+  color: #3e2600;
+}

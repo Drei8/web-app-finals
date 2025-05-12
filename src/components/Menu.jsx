@@ -52,3 +52,10 @@ const Sidebar = ({ activeIndex, setActiveIndex, hoveredIndex, setHoveredIndex })
 
 export default Sidebar;
 
+/* <li
+  key={index}
+  className={activeIndex === index || hoveredIndex === index ? 'current' : item.enabled ? 'enabled' : 'disabled'}
+  onClick={() => item.enabled && setActiveIndex(index)}
+>
+  <img src={item.image} alt={item.name} className="sidebar-icon" />
+</li> */ //add this code if you want to block the not existing sidebar-icon
